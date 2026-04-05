@@ -1663,10 +1663,19 @@ Use this link....
 Recognised slicer filament types at the moment are:
 - PLA
 - PLA+
+- PLA-CF
 - ASA
+- ASA-CF
+- ASA-GF
 - ABS
+- ABS-CF
+- ABS-GF
 - PET
+- PET-CF
+- PET-GF
 - PETG
+- PETG-CF
+- PETG-GF
 - FLEX
 - TPU
 
