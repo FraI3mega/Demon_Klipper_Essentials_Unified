@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# 3DPrintDemon Demon Disk Usage Scan v1.0.0
+
 DDIR="/home/$USER/printer_data/config/Demon_Klipper_Essentials_Unified"
 CDIR="/home/$USER/printer_data/config"
 LDIR="/home/$USER/printer_data/logs"
