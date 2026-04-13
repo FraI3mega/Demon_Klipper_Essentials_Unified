@@ -320,11 +320,11 @@ Not only can you now update all the DKEU user files with it but you can also eve
 <p>
 </p>
 
-THERE ARE TWO MEHTODS! One for older systems like Bullseye & the one below for newer systems like Trixie where it's required to run 3rd party packages in virtual envionments.
+THERE ARE TWO MEHTODS! One for older systems like Bullseye & the one below for newer systems like Trixie where it's required to run 3rd party packages in virtual environments.
 
 To use this feature on most newer systems like Trixie (not for Bullseye - see below) you'll need to install a couple of things first. SSH into your printer.
 
-Debian Rich - most likely will already be installed
+Debian Rich - most likely will already be installed but it needs to be in the virtual environment to work here.
 ``` 
 ~/klippy-env/bin/pip install -v rich
 ```
