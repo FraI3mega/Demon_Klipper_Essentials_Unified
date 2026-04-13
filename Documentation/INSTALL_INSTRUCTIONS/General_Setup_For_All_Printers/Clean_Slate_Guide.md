@@ -37,6 +37,12 @@ Your donations are used to feed my printers & give them the latest fancy pants n
 Be sure to use the website not the IOS app, it's cheaper!
 
 <br>
+
+### :warning: MAKE A BACKUP!
+
+Make a backup of your current system now! Be sure you at least download your current `/config` folder BEFORE YOU DO ANYTHING ELSE!! You want have a set of UNTOUCHED files to refer back to if needed! Once a backup is saved on your computer for use with this fresh install be sure to use a new SD card or SSD - this will leave your old system safe & completely untouched!
+
+<br>
 <br>
 
 ## LETS GET STARTED!
