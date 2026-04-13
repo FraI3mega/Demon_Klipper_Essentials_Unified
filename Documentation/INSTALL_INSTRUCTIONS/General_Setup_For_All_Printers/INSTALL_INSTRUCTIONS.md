@@ -341,7 +341,7 @@ These commands will install the libraries you need to run the interactive user f
 To use the feature use this command...
 
 ```
-~/klippy-env/bin/python3 ~/printer_data/config/Demon_Klipper_Essentials_Unified/Other_Files/Demon_Install_Script/Demon_config_update.pyy
+~/klippy-env/bin/python3 ~/printer_data/config/Demon_Klipper_Essentials_Unified/Other_Files/Demon_Install_Script/Demon_config_update.py
 ```
 
 
