@@ -43,7 +43,7 @@ Be sure to use the website not the IOS app, it's cheaper!
 
 These instructions are based on a user flashing Trixie on a Raspberry Pi SBC!
 
-## :red_circle: Step 1 - SYSTEM FLASHING
+## :red_circle: STEP 1 - SYSTEM FLASHING
 
 We need to choose & flash your new system to your SBC (Single Board Computer) after specifying user details & wifi details.
 
