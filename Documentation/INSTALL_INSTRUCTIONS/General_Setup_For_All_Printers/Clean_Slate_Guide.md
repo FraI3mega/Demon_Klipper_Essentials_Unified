@@ -2,7 +2,7 @@
 
 How to install DKEU from a blank SD card! 
 
-Sometimes you want (or need) to just start fresh! It's cool, sometime we all gotta do it, but man ain't it a hassle though!
+Sometimes you want (or need) to just start fresh! It's cool, sometimes we all gotta do it, but man ain't it a hassle though!
 Not anymore! You got everything you'll need to do take you from a blank SD card to a working system ready for you to upload your backed up data or create new all right here on a single page!!!
 You will also be at the stage where you can build & flash your MCU firmware directly.
 
