@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 3DPrintDemon Demon Disk Usage Scan v1.0.0
+# 3DPrintDemon Demon Disk Usage Scan v1.0.1
 
 DDIR="/home/$USER/printer_data/config/Demon_Klipper_Essentials_Unified"
 CDIR="/home/$USER/printer_data/config"
@@ -56,7 +56,7 @@ if [ ! -d "$TLDIR" ]; then
     echo "Directory $TLDIR does not exist."
 
 else
-    du -h --max-depth=1 /home/$USER/timelapse
+    du -h --max-depth=1 $TLDIR
 fi
 
 sleep 0.5
