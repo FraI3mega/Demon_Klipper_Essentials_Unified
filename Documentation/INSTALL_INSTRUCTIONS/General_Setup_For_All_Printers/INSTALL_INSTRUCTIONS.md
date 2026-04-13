@@ -326,7 +326,7 @@ To use this feature on most newer systems like Trixie (not for Bullseye - see be
 
 Debian Rich - most likely will already be installed
 ``` 
-sudo apt install python3-rich
+~/klippy-env/bin/pip install -v rich
 ```
 
 Wait for this to complete then run.
