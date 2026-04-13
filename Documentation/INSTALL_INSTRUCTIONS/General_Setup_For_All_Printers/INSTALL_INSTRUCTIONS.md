@@ -50,7 +50,7 @@ Sometimes you might want to start on a blank canvas. Here's how to do that on a 
 
 <br>
 
-### :red_circle: CLICK HERE - CLEAN SLATE INSTALL GUIDE!
+### :red_circle: [CLICK HERE - CLEAN SLATE INSTALL GUIDE!](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/Clean_Slate_Guide.md)
 
 <br>
 
