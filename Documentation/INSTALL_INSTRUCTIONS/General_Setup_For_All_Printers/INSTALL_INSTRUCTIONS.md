@@ -319,8 +319,34 @@ Not only can you now update all the DKEU user files with it but you can also eve
     </summary>
 <p>
 </p>
+
+THERE ARE TWO MEHTODS! One for older systems like Bullseye & the one below for newer systems like Trixie where it's required to run 3rd party packages in virtual envionments.
+
+To use this feature on most newer systems like Trixie (not for Bullseye - see below) you'll need to install a couple of things first. SSH into your printer.
+
+Debian Rich - most likely will already be installed
+``` 
+sudo apt install python3-rich
+```
+
+Wait for this to complete then run.
+
+Pypi.org ConfigUpdater
+```
+~/klippy-env/bin/pip install -v ConfigUpdater
+```
+
+These commands will install the libraries you need to run the interactive user file updater script.
+
+To use the feature use this command...
+
+```
+~/klippy-env/bin/python3 ~/printer_data/config/Demon_Klipper_Essentials_Unified/Other_Files/Demon_Install_Script/Demon_config_update.pyy
+```
+
+
     
-To use this new feature you'll need to install a couple of things first. SSH into your printer.
+This method works on Bullseye systems.
     
 ``` 
 python3 -m pip install rich
