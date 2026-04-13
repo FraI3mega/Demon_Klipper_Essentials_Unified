@@ -41,6 +41,23 @@ You will need to edit your slicer's `Start G-code` & `End G-code` boxes to get t
 <br>
 <br>
 
+# :floppy_disk: NEED A FRESH START? :floppy_disk:
+
+Sometimes you might want to start on a blank canvas. Here's how to do that on a single page with ALL the commands you'll need to go from a totally blank SD card to a working system ready to build MCU firmware, edit your config files & finish your DKEU install!
+
+>[!NOTE]
+>This is meant for users of Mainline Klipper. Users on edited & stuck/fixed factory systems will need to start with flashing a new version of their factory image to continue, compatibility with all aspects & commands is in NO WAY assured!
+
+<br>
+
+### :red_circle: CLICK HERE - CLEAN SLATE INSTALL GUIDE!
+
+<br>
+
+****************************************************************************************************************************
+
+<br>
+
 # NEW! COMPANION INSTALL VIDEO!
 
 Here's quick run-through of the general install process. This is NOT meant to replace the written instructions below, it's meant purely as a visual guide that will help you get the macros up & running on your system. By the time you're done you should be confident & comfortable working with the files on your printer to continue with setting up the macros further. 
@@ -275,7 +292,7 @@ Once installed navigate to option E (Community: Extensions), then option 1 (G-co
 
 </details>
 
-#### :warning: NEW BED_CHECKER SETTING FOR OLDER &/OR "FIXED" KLIPPER FACTORY MACHINES :warning:
+#### :warning: M112 ERROR - NEW BED_CHECKER SETTING FOR OLDER &/OR "FIXED" KLIPPER FACTORY MACHINES :warning:
 
 <details>
     <summary>
@@ -286,7 +303,7 @@ Once installed navigate to option E (Community: Extensions), then option 1 (G-co
 <p>
 </p>
 
-### BED_CHECKER HEAT SOAK - NEW SETTING FOR OLDER KLIPPER VERSIONS! 
+### BED_CHECKER HEAT SOAK - M112 ERROR - NEW SETTING FOR OLDER KLIPPER VERSIONS! 
 
 In order to bring DKEU inline with recent changes to Klipper’s probing & measuring systems where the old method is now depreciated & is being removed the macros have been updated. 
 Users with new systems & mainline klipper need not do anything except update their Klipper version to the latest commit. However users with “stuck” or “fixed” versions of klipper like on Sovol printers for example will need to activate the old_klipper_version variable to continue using the BED_CHECKER heat soak system.
@@ -303,7 +320,7 @@ Users with new systems & mainline klipper need not do anything except update the
 ### :recycle: UPDATING FROM A PREVIOUS VERSION - SSH CONFIG UPDATER SCRIPT! :recycle:
 
 >[!TIP]
->This script allows you to update ALL your Demon User Files across versions via interactive SSH Python script where it'll give you choices to bring in or bypass previously set values from your old files!!
+>This script allows you to mirgrate ALL your old Demon User Files settings across versions after certain updates when new files have been prompted to be extracted by the built in File_Handler system. This is done via interactive SSH Python script where it'll give you choices to bring in or bypass previously set values from your old files!!
 
 Thanks to the contributing legend that is Rotule666 (very apt name!) we have a brand new hugely expanded config updater tool! Over a few conversations regarding this script he came up with a whole new version of it for DKEU3!
 
@@ -456,7 +473,7 @@ Come & join the community! We've just launched Demon Discord, help us start buil
 
 # :bangbang: Preparing Your Current System :bangbang:
 
-### MAKE A BACKUP!
+### :warning: MAKE A BACKUP!
 
 Make a backup of your current system now! Be sure you at least download your current `/config` folder BEFORE YOU DO ANYTHING ELSE!! You want have a set of UNTOUCHED files to refer back to if needed!
 
@@ -572,9 +589,6 @@ Once installed navigate to option E (Community: Extensions), then option 1 (G-co
 ****************************************************************************************************************************
 
 <br>
-<br>
-<br>
-
 
 # :warning: MAIN SSH INSTALLER HERE: :warning:
 ### RUN THIS FIRST FROM YOUR SSH TERMINAL TO START YOUR FULL INSTALL!
