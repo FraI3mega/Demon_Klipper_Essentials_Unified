@@ -122,7 +122,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt autoremove -y
 ```
 ```
-sudo apt-get install git -y
+sudo apt install git -y
 ```
 ```
 sudo apt install python3-serial
