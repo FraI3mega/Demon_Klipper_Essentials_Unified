@@ -48,6 +48,9 @@ The new version of the Machine G-code is v1.4 & it allows ORCA SLAICER USERS to 
 
 This system stops your printer crashing into printed parts when pausing, changing filament & ending the print in printing by object mode.
 
+>[!IMPORTANT]
+>THIS REQUIRES ORCA SLICER VERSION 2.3.2! 
+
 This update now uses custom names & also provides a means of checking that you sent a file with the correct START Gcode for these macros! The system will halt the print & warn you if not! So no more sending a file to print with the wrong START Gcode & bad things happening!!
 
 ### [CLICK & UPDATE HERE!](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/Orca_Slicer_Setup.md)
