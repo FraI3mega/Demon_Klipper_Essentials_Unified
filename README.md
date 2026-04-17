@@ -44,7 +44,7 @@ If you have a Klipper error or power outage on your Sovol SV08 or SV08 MAX print
 
 ## :red_circle: Slicer G-code has changed! - 17/04/2026
 
-The new version of the Machine G-code is v1.4 & it allows ORCA SLAICER USERS to make use of the new Demon Print/Resume Object Avoidance system!
+The new version of the Machine G-code is v1.4 & it allows ORCA SLICER USERS to make use of the new Demon Print/Resume Object Avoidance system!
 
 This system stops your printer crashing into printed parts when pausing, changing filament & ending the print in printing by object mode.
 
