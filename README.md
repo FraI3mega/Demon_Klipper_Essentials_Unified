@@ -42,6 +42,16 @@ If you have a Klipper error or power outage on your Sovol SV08 or SV08 MAX print
 
 <br>
 
+## :red_circle: Slicer G-code has changed! - 17/04/2026
+
+The new version of the Machine G-code is v1.4 & it allows the use of the new Demon Print/Resume Object Avoidance system!
+
+This update now uses custom names & also provides a means of checking that you sent a file with the correct START Gcode for these macros! The system will halt the print & warn you if not! So no more sending a file to print with the wrong START Gcode & bad things happening!!
+
+### [CLICK & UPDATE HERE!](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/Orca_Slicer_Setup.md)
+
+<br>
+
 ## :red_circle: :warning: UPDATE KIAUH & REINSTALL THE SHELL SCRIPT EXTENSION! :warning: :red_circle:
 If your version of Kiauh & its installed shell script extension is too old it will impact DKEU functionality & stop all File Handler operations from completing correctly.
 Click the link below to see how to do this within the DKEU Troubleshooting section.
@@ -85,16 +95,6 @@ If you're using the shell script extension then this is for you! This change gre
 You will probably be seeing an error about the Demon User Files Handler Version having no attribute & your disk checker is no longer working.
 
 ### [New include command here!](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/INSTALL_INSTRUCTIONS.md#demon-user-files-handler-include)
-
-<br>
-
-## :red_circle: Slicer G-code has changed! 
-
-There is a change to the BED placeholder for version 1.3 to correct an issue with temperatures when using Orca's multi surface options.
-
-This update now uses custom names & also provides a means of checking that you sent a file with the correct START Gcode for these macros! The system will halt the print & warn you if not! So no more sending a file to print with the wrong START Gcode & bad things happening!!
-
-### [Check & update here!](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/Orca_Slicer_Setup.md)
 
 <br>
 
