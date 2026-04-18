@@ -9,6 +9,13 @@
 You should be sure to `[include mainsail.cfg]` as we will be using this! 
 When including this file you pay very close attention to any sections defined within it! They must not be duplicated within your printer.cfg file, for instance the pause/resume section will casue problems if its defined twice in your system!!
 
+<img width="1625" height="680" alt="My_Macros" src="https://github.com/user-attachments/assets/40e7d410-9bcb-4002-997a-838529bf0949" />
+
+
+<br>
+<br>
+<br>
+
 Create a new editable file in your /config directory...
 
 ```
@@ -96,8 +103,6 @@ As `Mainsail.cfg` is read only & you can't make any changes to it.
 Your new uncommented `_CLIENT_VARIABLE` macro should look like this when you're done. Image is for a Voron 2.4 350
 
 BE SURE TO SAVE & RESTART!
-
-<img width="1625" height="680" alt="My_Macros" src="https://github.com/user-attachments/assets/40e7d410-9bcb-4002-997a-838529bf0949" />
 
 
 
