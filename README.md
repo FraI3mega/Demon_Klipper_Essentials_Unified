@@ -11,7 +11,10 @@
 
 :tada: WELCOME TO VERSION 3!! :tada:
 
-These macros are smart & have adaptive properties, they will shape themselves to your printer what you’re printing without any need to edit any code! 
+
+
+These macros are a full ecosystem encompassing a suite of smart & adaptive integrated macros that dramatically improve user experience. They will shape themselves to your printer what you’re printing without any need to edit any code!
+
 For example the macros know if your printer is CoreXY or bed slinger, they know if it's already homed so wont home it again, & can not only automatically shape itself to simple things like your printer’s bed size & what temperatures you’re printing at they can automatically choose & load the correct mesh for the filament type or temperature of your print, as your bed will slightly change shape the hotter it gets. They can do all that plus much, much more!
 
 ## These macros will run on almost any COREXY or BED SLINGER (cartesian) Klipper printer with no changes needed to the macro files! 
