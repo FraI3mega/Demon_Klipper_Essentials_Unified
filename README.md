@@ -115,7 +115,7 @@ You will probably be seeing an error about the Demon User Files Handler Version 
 
 <br>
 
- # START HERE....!!!
+ # :arrow_down: START HERE....!!! :arrow_down:
 
  >[!IMPORTANT]
 >These macros rely on you setting the correct filament type in your slicer! BE SURE YOU DO THIS!
@@ -125,7 +125,7 @@ You will probably be seeing an error about the Demon User Files Handler Version 
 
 Click the link below to begin reading how to install!
 
-- ## [GENERAL INSTALL & SETUP FOR ALL PRINTERS](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/INSTALL_INSTRUCTIONS.md)
+ ## :red_circle: [GENERAL INSTALL & SETUP FOR ALL PRINTERS](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/INSTALL_INSTRUCTIONS.md)
 
 
 
