@@ -35,7 +35,7 @@ Checks & Error Handling with clear & easy to understand messages to tell you wha
 
 - ### FULLY AI CODE FREE! :no_entry_sign: :robot: :no_entry_sign:
 
-- No AI has been used to create them! A lot of time, love, coffee & lack of sleep testing has been poured into these macros! They have all been written 100% by a human!
+- No AI has been used to create these macros! A lot of time, love, coffee & lack of sleep testing has been poured into these macros! They have all been written 100% by a human!
 
 - FULL EDDY NG SUPPORT!! No need to add any Eddy NG macros, just add the correct Eddy NG config sections & DKEU will just know if you have Eddy NG installed, then all you need do is set variables in the user settings file. 
 
