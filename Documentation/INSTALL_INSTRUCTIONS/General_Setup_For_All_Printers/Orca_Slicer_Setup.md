@@ -34,6 +34,11 @@ Here is how they should look in Ocra Slicer.
 
 These are fully setup codes as per recommended Mainsail settings combined with the macro settings for Orca Slicer using relative extrusion, as per the image....
 
+>[!TIP]
+>Use the double box icon on the right side of the text to instantly copy each command ready for you to paste into your SSH terminal!
+
+<br>
+
 Machine Start G-code:
 
 ```
