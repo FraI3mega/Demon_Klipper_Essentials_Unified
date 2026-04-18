@@ -17,8 +17,10 @@ This repository a full ecosystem encompassing a suite of smart & adaptive integr
 
 For example the macros know if your printer is CoreXY or bed slinger, they know if it's already homed so wont home it again, & can not only automatically shape itself to simple things like your printer’s bed size & what temperatures you’re printing at they can automatically choose & load the correct mesh for the filament type or temperature of your print, as your bed will slightly change shape the hotter it gets. They can do all that plus much, much more!
 
-## These macros will run on almost any COREXY or BED SLINGER (cartesian) Klipper printer with no changes needed to the macro files! 
-Small user setting changes will be required of course.
+### These macros will run on almost any COREXY or BED SLINGER (cartesian) Klipper printer with no changes needed to the macro files! 
+
+###### Small user setting changes will be required of course.
+
 
 These macros have been developed for use on almost anything from a Voron printer to an Ender 3, & anything else in between! They will check what sort of machine you have & try to adapt themselves to it automatically!
 
@@ -26,16 +28,18 @@ So for example if you hit `MACHINE_LEVEL` on a COREXY printer you'll get a `QUAD
 
 Checks & Error Handling with clear & easy to understand messages to tell you what's wrong!
 
-***Made to make your printing life easier & your printer SMARTER!***
+<br>
 
-FULLY AI CODE FREE!
-No AI has been used to create them! A lot of time, love, coffee & lack of sleep testing has been poured into these macros! They have all been written 100% by a human!
+## ***Made to make your printing life easier & your printer SMARTER!***
 
-FULL EDDY NG SUPPORT!!
-No need to add any Eddy NG macros, just add the correct Eddy NG config sections & DKEU will just know if you have Eddy NG installed, then all you need do is set variables in the user settings file. 
 
-SUPPORT FOR SOVOL'S PLR SYSTEM!!
-If you have a Klipper error or power outage on your Sovol SV08 or SV08 MAX printer running stock firmware don't worry! The DKEU macros now can make use of the Sovol PLR feature!
+- ### FULLY AI CODE FREE! :no_entry_sign: :robot: :no_entry_sign:
+
+- No AI has been used to create them! A lot of time, love, coffee & lack of sleep testing has been poured into these macros! They have all been written 100% by a human!
+
+- FULL EDDY NG SUPPORT!! No need to add any Eddy NG macros, just add the correct Eddy NG config sections & DKEU will just know if you have Eddy NG installed, then all you need do is set variables in the user settings file. 
+
+- SUPPORT FOR SOVOL'S PLR SYSTEM!! If you have a Klipper error or power outage on your Sovol SV08 or SV08 MAX printer running stock firmware don't worry! The DKEU macros now can make use of the Sovol PLR feature!
 
 ****************************************************************************************************************************
 
