@@ -50,7 +50,7 @@ Best backup is a clone of your EMMC that you can simply swap back to or flash an
 
 <br>
 
-# :red_circle: FOLLOW THIS GUIDE
+# :red_circle: FOLLOW THIS GUIDE FIRST
 
 Make sure you do it ALL! Then come back here.
 
