@@ -306,6 +306,7 @@ Before you start using your new system be sure to disable this macro in the DKEU
 Follow the configuration steps here.
 https://github.com/vvuk/eddy-ng/wiki/Calibration
 
+<br>
 
 # :red_circle: FINISH!
 
@@ -322,5 +323,21 @@ Image below: My SV08 Max converted to mainline with above outlined process with 
 
 ## :red_circle: [Back the SV08 MAX instructions page...](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/SV08_MAX_EXTRA_INSTRUCTIONS.md#if-youre-using-a-sovol-sv08-max-printer)
 
+<br>
+<br>
+
+****************************************************************************************************************************
+
+<br>
+
+# :gift: SUPPORT 3DPrintDemon! :gift:
+
+You can stay a supporter on the 3DPrintDemon Patreon sending donations of your choosing for as long as you like. Maybe it’s for just a month or two for single private users that would like to show your gratitude, or maybe you could consider ongoing support if you’re a business owner & make regular use of my work to aid your business.
+
+Active supporters have a special channel on the Demon Discord server & are provided with a higher level of support over non supporting members. Just make your discord user name known & you’ll be granted “supporter” privileges.
+
+:red_circle: [JOIN THE 3DPRINTDEMON PATREON](https://patreon.com/3dprintdemon) as an active donating member & show your support for my work!
+
+<br>
 <br>
 <br>
