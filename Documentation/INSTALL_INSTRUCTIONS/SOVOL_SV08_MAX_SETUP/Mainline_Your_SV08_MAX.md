@@ -1,4 +1,4 @@
-# MAINLINE YOUR MAX! 
+# :tada: MAINLINE YOUR MAX! :tada:
 
 Use the Sovol image but convert it to mainline Klipper! NO STLINK REQUIRED!
 
