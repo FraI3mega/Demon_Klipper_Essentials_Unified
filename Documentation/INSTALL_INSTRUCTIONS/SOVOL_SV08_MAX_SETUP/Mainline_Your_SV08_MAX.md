@@ -105,16 +105,16 @@ Now back to the main menu `B`
 
 :red_circle: Install the Kiauh Extras
 
-- Option 4. - Extra Dependencies
-- Option 5. [Input Shaper] - Do you want to install the required packages? YES
+- Option `4 Advanced`
+- Option `5 Input Shaper` - Do you want to install the required packages? YES
 
 <br>
 
 5. Back to main menu `B`
 
-- Option E. [Extensions]
-- Option 1. G-Code Shell Command
-- Option 1. Install - Create an example shell command? NO!
+- Option `E Extensions`
+- Option `1 G-Code Shell Command`
+- Option `1 Install` - Create an example shell command? NO!
 
 Now back to the main menu `B`
 
