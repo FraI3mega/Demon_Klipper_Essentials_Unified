@@ -38,6 +38,8 @@ Be sure to use the website not the IOS app, it's cheaper!
 
 This is due to fundamental changes in recent releases of Klipper that render the Sovol code incompatible!
 
+Note you will also loose the Sovol PLR function. Just so you know.
+
 <br>
 
 ## :warning: MAKE A BACKUP!
