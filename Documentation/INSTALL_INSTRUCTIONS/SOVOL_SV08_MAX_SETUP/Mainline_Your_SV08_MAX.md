@@ -125,7 +125,7 @@ sudo reboot now
 
 <br>
 
-# NOW THE TRICKY BIT! 
+# :red_circle: NOW THE TRICKY BIT! :cold_sweat:
 
 At the time of writing we need to edit Klipper to let us use a 128kib bootloader for the mainboard MCU! To do this we need to......
 
