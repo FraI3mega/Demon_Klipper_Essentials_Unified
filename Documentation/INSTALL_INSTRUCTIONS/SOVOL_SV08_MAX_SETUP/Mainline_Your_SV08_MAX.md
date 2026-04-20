@@ -203,7 +203,7 @@ https://canbus.esoterical.online/mainboard_klipper_updating.html
 #### SETTINGS FOR THE SOVOL SV08 MAX MAINBOARD:
 
 >[!NOTE]
->The two pins starting with exclamation marks (highlighted blue in below image) will stop the two giant rear fans blasting full power whenever you turn the printer on, but do note if the chamber heater is very hot it will also stop any hard shutdown state from cooling it while Klipper starts.
+>The two pins starting with exclamation marks (highlighted blue in below image) will stop the two giant rear fans blasting full power whenever you turn the printer on, but do note if the chamber heater is very hot it will also stop any hard shutdown state from cooling it while Klipper starts. Add them or not to your config, the choice is yours.
 
 <img width="615" alt="MAX MAIN MCU" src="https://github.com/user-attachments/assets/c0ace630-1174-4255-aaa3-4c040fde753b" />
 
