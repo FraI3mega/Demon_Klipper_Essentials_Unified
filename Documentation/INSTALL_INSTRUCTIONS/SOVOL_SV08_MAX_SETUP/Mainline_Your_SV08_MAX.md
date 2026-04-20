@@ -147,7 +147,7 @@ Scroll down to where it says `Bootloader` section surrounded by hashes in blue
 now add...
 
 ```
- || MACH_STM32H750
+|| MACH_STM32H750
 ```
 
 ...to the end of the line that says `bool "128KiB bootloader" so it looks exactly the same as the rest of the section as per the image below.
