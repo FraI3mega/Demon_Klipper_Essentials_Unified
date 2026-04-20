@@ -301,4 +301,16 @@ https://github.com/vvuk/eddy-ng/wiki/Calibration
 
 You should now be on Mainline Klipper running Eddy NG!
 
+Image below: My SV08 Max converted to mainline with above outlined process with all MCU's updated running Eddy NG & the latest commit of Klipper.
+
 <img width="839" height="467" alt="DONE!" src="https://github.com/user-attachments/assets/97440e60-9aae-48f9-8906-53c40fc67309" />
+
+<br>
+<br>
+<br>
+<br>
+
+## :red_circle: [Back the SV08 MAX instructions page...](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/SV08_MAX_EXTRA_INSTRUCTIONS.md#if-youre-using-a-sovol-sv08-max-printer)
+
+<br>
+<br>
