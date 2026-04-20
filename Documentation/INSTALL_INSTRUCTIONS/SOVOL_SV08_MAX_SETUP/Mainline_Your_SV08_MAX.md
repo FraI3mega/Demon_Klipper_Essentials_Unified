@@ -252,9 +252,9 @@ sudo service klipper start
 
 # :red_circle: PRINTER CFG CHANGES
 
-Commenting out these Sovol sections shown here.
-
 ### Comment Out:
+
+Commenting out these Sovol sections shown here.
 
 ```
 # [probe_eddy_current eddy]
