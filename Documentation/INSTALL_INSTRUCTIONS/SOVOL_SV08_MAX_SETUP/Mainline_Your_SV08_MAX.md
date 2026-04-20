@@ -44,6 +44,8 @@ This is due to fundamental changes in recent releases of Klipper that render the
 
 Make a backup of your current system now! Be sure you at least download your current `/config` folder BEFORE YOU DO ANYTHING ELSE!! You want have a set of UNTOUCHED files to refer back to if needed! Once a backup is saved on your computer you can use it to drop files back into this fresh install once you finish the guide! Also be sure to use a new SD card or SSD - this will leave your old system safe & completely untouched!
 
+Best backup is a clone of your EMMC that you can simply swap back to or flash another copy of incase you need it. 
+
 <br>
 
 <br>
