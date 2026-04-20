@@ -210,7 +210,7 @@ https://canbus.esoterical.online/mainboard_klipper_updating.html
 
 
 
-Now heat to here to update the toolhead!
+Now head to here to update the toolhead & chamber heater!
 https://canbus.esoterical.online/toolhead_klipper_updating.html
 
 #### SETTINGS FOR THE SV08 MAX EXTRA MCU & HOT MCU (toolhead & chamber heater!):
