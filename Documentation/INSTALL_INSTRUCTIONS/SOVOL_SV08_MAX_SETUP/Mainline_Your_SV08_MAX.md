@@ -134,7 +134,7 @@ sudo service klipper stop
 ```
 
 >[!CAUTION]
->Be EXTREMELY careful with this file & do NOT edit any other edits or disrupt it's formatting in any way!
+>Be EXTREMELY careful with this file & do NOT make any other edits or disrupt it's formatting in any way!
 
 ```
 sudo nano ~/klipper/src/stm32/Kconfig
