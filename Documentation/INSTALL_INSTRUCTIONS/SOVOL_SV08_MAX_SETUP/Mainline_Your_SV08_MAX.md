@@ -238,7 +238,7 @@ sudo systemctl enable klipper-mcu.service
 make menuconfig
 ```
 
-Set to compile firmware for `Linux process`
+Set to compile firmware for `Linux process` found under Micro-controller Architecture options.
 
 Then...
 
