@@ -86,6 +86,20 @@ This allows Klipper & DKEU to monitor the heater's actual temperature & to contr
 
 ****************************************************************************************************************************
 
+<br>
+
+# MAINLINE YOUR MAX! - OPTIONAL
+
+This is a simple conversion of the stock Sovol image to mainline. No EMMC flashing, no ST Link required. Only downside you'er still on the stock image, but with mainline Klipper!
+
+:red_circle: [CLCIK HERE TO MAINLINE YOUR MAX](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/Mainline_Your_SV08_MAX.md)
+
+<br>
+
+****************************************************************************************************************************
+
+<br>
+
 # Use Your SV08 Max WITHOUT The Sovol Filament Buffer/Feeder
 
 To use your SV08 Max without the buffer follow this section & miss out the `Add Clog Detection Override Pin!` & `Add Jam Detection Override Pin!` sections below. 
