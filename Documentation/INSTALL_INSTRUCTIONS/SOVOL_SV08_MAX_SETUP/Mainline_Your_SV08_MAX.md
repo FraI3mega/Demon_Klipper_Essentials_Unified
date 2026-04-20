@@ -99,6 +99,23 @@ the select `1 Klipper` & install new mainline Klipper!
 
 Now back to the main menu `B`
 
+<br>
+
+:red_circle: Install the Kiauh Extras
+
+- Option 4. - Extra Dependencies
+- Option 5. [Input Shaper] - Do you want to install the required packages? YES
+
+<br>
+
+5. Back to main menu `B`
+
+- Option E. [Extensions]
+- Option 1. G-Code Shell Command
+- Option 1. Install - Create an example shell command? NO!
+
+Now back to the main menu `B`
+
 hit `Q` to exit!
 
 <br>
@@ -122,26 +139,6 @@ Reboot now!
 ```
 sudo reboot now
 ```
-
-<br>
-
-:red_circle: Install the Kiauh Shell Script Extension
-
-```
-./kiauh/kiauh.sh
-```
-
-- Option 4. - Extra Dependencies
-- Option 5. [Input Shaper] - Do you want to install the required packages? YES
-
-<br>
-
-5. Back to main menu
-
-- Option E. [Extensions]
-- Option 1. G-Code Shell Command
-- Option 1. Install - Create an example shell command? NO!
-
 
 <br>
 
