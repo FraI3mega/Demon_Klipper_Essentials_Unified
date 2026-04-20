@@ -252,7 +252,7 @@ sudo service klipper start
 
 # :red_circle: PRINTER CFG CHANGES
 
-Now add this expanded section below to your printer.cfg commenting out the Sovol one shown here.
+Commenting out these Sovol sections shown here.
 
 ### Comment Out:
 
@@ -280,6 +280,9 @@ Now add this expanded section below to your printer.cfg commenting out the Sovol
 <br>
 
 ### Paste In:
+
+Now add this expanded section below to your printer.cfg
+
 ```
 [probe_eddy_ng eddy]
 sensor_type: ldc1612
