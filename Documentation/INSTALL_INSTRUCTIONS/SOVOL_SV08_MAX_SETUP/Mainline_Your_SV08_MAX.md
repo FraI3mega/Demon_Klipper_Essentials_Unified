@@ -248,6 +248,8 @@ sudo service klipper start
 
 <br>
 
+# :red_circle: PRINTER CFG CHANGES
+
 Now add this expanded section below to your printer.cfg commenting out the Sovol one shown here.
 
 ```
