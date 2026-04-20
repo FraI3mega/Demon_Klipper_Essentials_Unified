@@ -293,6 +293,14 @@ Save & Restart
 
 <br>
 
+# BEFORE USE!
+
+Before you start using your new system be sure to disable this macro in the DKEU custom_exapansion file! It is no longer required.
+
+## :red_circle: [CLICK HERE - DISBALE THIS MACRO!!](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/SV08_MAX_EXTRA_INSTRUCTIONS.md#sv08-max-custom-expansion-file---required)
+
+<br>
+
 # :red_circle: CONFIGURE EDDY NG!
 
 Follow the configuration steps here.
