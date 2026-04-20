@@ -193,5 +193,19 @@ Now Save & Restart Klipper
 
 <br>
 
+# Final Word
+
+After some testing by myself & the community it seems the Sovol Hot_MCU has a somewhat nonstandard setup for it's thermistors & the pullup resistors values need adjusting and in some instances a custom thermistor setup & calibrated to get the most accurate readings. I found that setting the pullup resistor to a valuve of 26000 worked ok for my system.
+
+## Please double check the displayed temps match or are close to actual temperatures being output by the heater.
+
+My best results were with this value. Use in the chamber_hot.cfg file under the `[heater_generic Chamber_Heater]` section.
+
+```
+pullup_resistor: 26000
+```
+
+<br>
+
 # [BACK TO WHERE YOU WERE...](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/SV08_MAX_EXTRA_INSTRUCTIONS.md#use-your-sv08-max-without-the-sovol-filament-bufferfeeder)
 
