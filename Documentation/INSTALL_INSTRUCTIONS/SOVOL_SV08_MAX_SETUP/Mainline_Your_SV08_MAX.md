@@ -77,8 +77,6 @@ The hit option `S` & check the first section for reads Klipper source repository
 
 `Branch: master`
 
-:red_circle: Once once confirmed navigate to option E (Community: Extensions), then option 1 (G-code Shell Command) to REMOVE & then INSTALL the extension over.
-
 <br>
 
 # :red_circle: DELETIONS
@@ -124,6 +122,26 @@ Reboot now!
 ```
 sudo reboot now
 ```
+
+<br>
+
+:red_circle: Install the Kiauh Shell Script Extension
+
+```
+./kiauh/kiauh.sh
+```
+
+- Option 4. - Extra Dependencies
+- Option 5. [Input Shaper] - Do you want to install the required packages? YES
+
+<br>
+
+5. Back to main menu
+
+- Option E. [Extensions]
+- Option 1. G-Code Shell Command
+- Option 1. Install - Create an example shell command? NO!
+
 
 <br>
 
