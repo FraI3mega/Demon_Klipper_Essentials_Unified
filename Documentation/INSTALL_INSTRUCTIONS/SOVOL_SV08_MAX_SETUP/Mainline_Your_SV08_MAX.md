@@ -295,7 +295,7 @@ Save & Restart
 
 <br>
 
-# BEFORE USE!
+# :red_circle: BEFORE USE!
 
 Before you start using your new system be sure to disable this macro in the DKEU custom_exapansion file! It is no longer required.
 
