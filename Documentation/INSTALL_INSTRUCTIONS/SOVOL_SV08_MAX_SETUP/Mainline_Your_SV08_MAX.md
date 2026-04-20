@@ -77,6 +77,8 @@ The hit option `S` & check the first section for reads Klipper source repository
 
 `Branch: master`
 
+Now back to the main menu `B`
+
 <br>
 
 # :red_circle: DELETIONS
