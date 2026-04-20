@@ -254,6 +254,8 @@ sudo service klipper start
 
 Now add this expanded section below to your printer.cfg commenting out the Sovol one shown here.
 
+### Comment Out:
+
 ```
 # [probe_eddy_current eddy]
 # sensor_type: ldc1612
@@ -264,7 +266,20 @@ Now add this expanded section below to your printer.cfg commenting out the Sovol
 # y_offset: -0.75
 # # vir_contact_speed: 3.0
 ```
+```
+# [z_offset_calibration]
+# non_contact_probe:probe_eddy_current eddy
+# contact_probe:probe_eddy_current eddy
+# endstop_xy_position: 250,251
+# center_xy_position: -10,10                        
+# z_hop: 5                       
+# z_hop_speed: 10
+# internal_endstop_offset: -0.25 
+```
 
+<br>
+
+### Paste In:
 ```
 [probe_eddy_ng eddy]
 sensor_type: ldc1612
