@@ -32,9 +32,9 @@ Be sure to use the website not the IOS app, it's cheaper!
 <br>
 <br>
 
-# WARNING! WITH ANY VERSION OF THE LATEST KLIPPER YOU WILL LOOSE THE ABILITY TO RUN THE BUFFER_STEPPER!!!!
+# :red_circle: :warning: WARNING! WITH ANY VERSION OF THE LATEST KLIPPER YOU WILL LOOSE THE ABILITY TO RUN THE BUFFER_STEPPER!!!!
 
-# YES YOU READ CORRECTLY BY DOING THIS YOU WILL LOOSE YOUR AUX FEEDER!!! STOP NOW IF YOU DON'T WANT THAT!
+# :red_circle: :warning: YES YOU READ CORRECTLY BY DOING THIS YOU WILL LOOSE YOUR AUX FEEDER!!! STOP NOW IF YOU DON'T WANT THAT!
 
 This is due to fundamental changes in recent releases of Klipper that render the Sovol code incompatible!
 
