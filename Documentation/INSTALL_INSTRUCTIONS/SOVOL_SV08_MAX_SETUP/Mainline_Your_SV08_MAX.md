@@ -44,7 +44,14 @@ Note you will also loose the Sovol PLR function. Just so you know.
 
 <br>
 
-## :warning: MAKE A BACKUP!
+### 🆘🛟 [NEED HELP - CLICK HERE](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/edit/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/Mainline_Your_SV08_MAX.md#red_circle-ok-i-gone-done--messed-up-i-borked-my-board-help) 🛟🆘
+
+The flash didnt work or you set wrong pins &/or you managed to overwrite your bootloader!
+
+<br>
+<br>
+
+## :warning: START BY MAKING A BACKUP!
 
 Make a backup of your current system now! Be sure you at least download your current `/config` folder BEFORE YOU DO ANYTHING ELSE!! You want have a set of UNTOUCHED files to refer back to if needed! Once a backup is saved on your computer you can use it to drop files back into this fresh install once you finish the guide! Also be sure to use a new SD card or SSD - this will leave your old system safe & completely untouched!
 
@@ -369,10 +376,6 @@ Image below: My SV08 Max converted to mainline with above outlined process with 
 <br>
 <br>
 
-****************************************************************************************************************************
-
-<br>
-
 # :gift: SUPPORT 3DPrintDemon! :gift:
 
 You can stay a supporter on the 3DPrintDemon Patreon sending donations of your choosing for as long as you like. Maybe it’s for just a month or two for single private users that would like to show your gratitude, or maybe you could consider ongoing support if you’re a business owner & make regular use of my work to aid your business.
@@ -381,6 +384,89 @@ Active supporters have a special channel on the Demon Discord server & are provi
 
 :red_circle: [JOIN THE 3DPRINTDEMON PATREON](https://patreon.com/3dprintdemon) as an active donating member & show your support for my work!
 
+<br>
+
+****************************************************************************************************************************
+
+# :red_circle: ...OK I GONE DONE & MESSED UP, I BORKED MY BOARD! HELP!
+
+Ok Don't panic you should be able to get it back by using the ST Link USB dongle to reflash either or both the Katapult Bootloader & Klipper again with the correct settings.
+
+<br>
+
+### :red_circle: REFLASHING KLIPPER WITH THE ST LINK
+
+Rebuild the correct firmware making sure all pins are correct & the use the STM32Cube Programmer tool to flash the new .bin file at `Start address` 0x08020000
+
+Get the tool [here!](https://www.st.com/en/development-tools/stm32cubeprog.html)
+
+****************************************************************************************************************************
+
+<br>
+<br>
+<br>
+<br>
+
+# :red_circle: OK THATS GREAT BUT WHAT IF I DID SOMETHING CRAZY LIKE OVERWRITE THE BOOTLOADER?
+
+Well thats definitely unfortunate! Now you have some extra work to do!
+First you need to edit Katapult to allow the correct start application offset! Then you need to build new firmware & flash it with the ST Link.
+
+Make sure you have the latest Katapult
+
+```
+cd katapult
+git pull
+```
+
+If it returns a no such file/dir run...
+
+```
+git clone https://github.com/Arksine/katapult
+```
+
+then run...
+
+```
+sudo nano ~/katapult/src/stm32/Kconfig
+```
+
+now add...
+
+```
+|| MACH_STM32H750
+```
+<br>
+
+You need to do the same here as you did before with Klipper & add the Max's MCU to the list - CAREFULLY!!
+
+<img width="1031" height="582" alt="KATAPULT" src="https://github.com/user-attachments/assets/21b51b94-d7cc-44f0-b249-74b85c874900" />
+
+<br>
+<br>
+
+
+Once you have confirmed this is done correctly press `ctrl+X` & press `Y` to save the file & the hit `return` to confirm the name - leave it unchanged!
+
+Now....
+
+```
+cd katapult
+make menuconfig
+```
+
+Settings for Katapult:
+
+<img width="645" height="221" alt="KATAPULT SETTINGS" src="https://github.com/user-attachments/assets/414c8ca3-ff68-4856-afae-400373dd639f" />
+
+<br>
+<br>
+
+Once you've built the Katapult bootloader load it into STM32Cube Programmer do a full chip erase on the Max's MCU & flash the KATAPULT .bin file at `Start address` 0x08000000.
+
+Then do the above section on flashing Klipper with the ST Link.
+
+<br>
 <br>
 <br>
 <br>
