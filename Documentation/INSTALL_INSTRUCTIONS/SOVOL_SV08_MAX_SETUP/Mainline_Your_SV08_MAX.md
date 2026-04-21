@@ -441,6 +441,17 @@ You need to do the same here as you did before with Klipper & add the Max's MCU 
 <br>
 <br>
 
+You will also need to go to the very bottom of the file & do the same for the Flash Settings section. Here you need to remove the `&& !MACH_STM32H750` & replace it with...
+
+```
+|| MACH_STM32H750
+```
+<br>
+
+<img width="657" height="428" alt="KATAPULT SETTINGS 2" src="https://github.com/user-attachments/assets/97f1e5a2-327a-44d8-90c8-f3a28f05c16e" />
+
+<br>
+<br>
 
 Once you have confirmed this is done correctly press `ctrl+X` & press `Y` to save the file & the hit `return` to confirm the name - leave it unchanged!
 
