@@ -40,7 +40,7 @@ This is due to fundamental changes in recent releases of Klipper that render the
 
 Note you will also loose the Sovol PLR function. Just so you know.
 
-## :red_circle: :warning: EXTRA WARNING! There are risks by doing this, they are small but you need to be careful as you're editing Klipper firmware building files & flashing MCU firmware! Be sure you have an ST Link handy incase something does go wrong! PROCEED AT YOUR OWN RISK!
+## :red_circle: :warning: EXTRA WARNING! There are risks by doing this, they are small but you need to be careful as you're editing Klipper, building firmware files & flashing the MCU's! Be sure you have an ST Link handy incase something does go wrong! PROCEED AT YOUR OWN RISK!
 
 <br>
 
