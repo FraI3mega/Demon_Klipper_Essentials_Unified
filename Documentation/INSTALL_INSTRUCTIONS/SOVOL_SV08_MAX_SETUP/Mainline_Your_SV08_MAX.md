@@ -71,6 +71,12 @@ Make sure you do it ALL! Then come back here.
 
 # :red_circle: PREPARATION
 
+OPTIONAL - To be extra safe you could scan all your MCU's & download all stock firmware using the STM32Cube Programmer tool via an ST Link USB Dongle before you attempt this change.
+
+Get the tool [here!](https://www.st.com/en/development-tools/stm32cubeprog.html)
+
+<br>
+
 SSH command...
 
 ```
