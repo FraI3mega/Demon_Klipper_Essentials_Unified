@@ -44,7 +44,7 @@ Note you will also loose the Sovol PLR function. Just so you know.
 
 <br>
 
-### 🆘🛟 [NEED HELP - CLICK HERE](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/edit/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/Mainline_Your_SV08_MAX.md#red_circle-ok-i-gone-done--messed-up-i-borked-my-board-help) 🛟🆘
+### 🆘🛟 [NEED HELP - CLICK HERE](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/SOVOL_SV08_MAX_SETUP/Mainline_Your_SV08_MAX.md#red_circle-ok-i-gone-done--messed-up-i-borked-my-board-help) 🛟🆘
 
 The flash didnt work or you set wrong pins &/or you managed to overwrite your bootloader!
 
