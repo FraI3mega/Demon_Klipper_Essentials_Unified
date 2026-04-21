@@ -396,7 +396,7 @@ Ok Don't panic you should be able to get it back by using the ST Link USB dongle
 
 ### :red_circle: REFLASHING KLIPPER WITH THE ST LINK
 
-Rebuild the correct firmware making sure all pins are correct & the use the STM32Cube Programmer tool to flash the new .bin file at `Start address` 0x08020000
+Rebuild the correct firmware making sure all pins are correct & the use the STM32Cube Programmer tool to flash the new klipper .bin file at `Start address` 0x08020000
 
 Get the tool [here!](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
