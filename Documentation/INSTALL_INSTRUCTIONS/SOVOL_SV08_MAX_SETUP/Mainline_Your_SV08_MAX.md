@@ -384,9 +384,9 @@ Active supporters have a special channel on the Demon Discord server & are provi
 
 :red_circle: [JOIN THE 3DPRINTDEMON PATREON](https://patreon.com/3dprintdemon) as an active donating member & show your support for my work!
 
-<br>
-
 ****************************************************************************************************************************
+
+<br>
 
 # :red_circle: ...OK I GONE DONE & MESSED UP, I BORKED MY BOARD! HELP!
 
@@ -402,9 +402,6 @@ Get the tool [here!](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
 ****************************************************************************************************************************
 
-<br>
-<br>
-<br>
 <br>
 
 # :red_circle: OK THATS GREAT BUT WHAT IF I DID SOMETHING CRAZY LIKE OVERWRITE THE BOOTLOADER?
