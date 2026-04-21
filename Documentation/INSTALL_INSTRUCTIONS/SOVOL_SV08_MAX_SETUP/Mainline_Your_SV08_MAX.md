@@ -365,6 +365,26 @@ https://github.com/vvuk/eddy-ng/wiki/Calibration
 
 <br>
 
+### If automatic calibrateion keeps failing try running these commands top to bottom....
+
+>[!NOTE]
+>You can change the DRIVE_CURRENT from 15 to whatever value you want to calibrate at
+
+```
+SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=60
+```
+```
+TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM=58 MAXIMUM=62
+```
+```
+G28 X Y
+```
+```
+PROBE_EDDY_NG_CALIBRATE DRIVE_CURRENT=15
+```
+
+<br>
+
 # :red_circle: FINISH!
 
 You should now be on Mainline Klipper running Eddy NG!
