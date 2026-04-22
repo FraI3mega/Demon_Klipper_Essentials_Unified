@@ -439,7 +439,7 @@ First you need to edit Katapult to allow the correct start application offset! T
 Make sure you have the latest Katapult
 
 ```
-cd katapult && git pull
+cd ~/katapult && git pull
 ```
 
 If it returns a no such file/dir run...
