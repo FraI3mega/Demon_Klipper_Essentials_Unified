@@ -207,8 +207,12 @@ Come & join the community! We've just launched Demon Discord, help us start buil
 
 Making your DKEU cleaning system setup a breeze! 
 
+Use this guided UI tool to set up your DKEU cleaner's main features & automatically save them to file!
+
 >[!TIP]
-> Use this guided UI tool to set up your DKEU cleaner's main features & automatically save them to file!
+>Be sure to reload the new [Demon Mainsail Backup .json](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/tree/main/Other_Files/DEMON_Macro_layout_JSON) file to bring up the new macro button after updating your install of DKEU to the latest version.
+>
+>Plus don't forget to update your KlipperScreen.conf file to add the new Prepare menu button! Check expandable section, [CLICK HERE!](https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/blob/main/Documentation/INSTALL_INSTRUCTIONS/General_Setup_For_All_Printers/INSTALL_INSTRUCTIONS.md#tv-modifying-klipperscreen-for-new-features-tv)
 
 <br>
 
