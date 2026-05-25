@@ -78,17 +78,30 @@ Voron users with a Voron style physical Z endstop switch, spelling of the variab
 
 <br>
 
-## :red_circle: BED_CHECKER HEAT SOAK - NEW SETTING FOR OLDER KLIPPER VERSIONS! 
+## :red_circle: BED_CHECKER HEAT SOAK - OLDER KLIPPER VERSIONS ON STOCK FACTORY MACHINES!
 
+As of 24th of May 2026 the latest version of DKEU now has this feature fully automated & the system will KNOW if you have a legacy version of Klipper or not & it will know to use legacy mode or not!
+### LATEST COMMIT USERS OF DKEU DO NOT HAVE TO DO THIS - THE VARIABLE HAS BEEN REMOVED
+
+<details>
+    <summary>
+        <b>
+        :red_circle: Click To Expand - OLDER VERSIONS OF DKEU ONLY! v3.1.1 - v3.2.0
+        </b>
+    </summary>
+<p>
+</p>
 In order to bring DKEU inline with recent changes to Klipper’s probing & measuring systems where the old method is now depreciated & is being removed the macros have been updated. 
-Users with new systems & mainline klipper need not do anything except update their Klipper version to the latest commit. However users with “stuck” or “fixed” versions of klipper like on Sovol printers for example will need to activate the old_klipper_version variable to continue using the BED_CHECKER heat soak system. 
+Users with new systems & mainline klipper need not do anything except update their Klipper version to the latest commit. However users with stock factory or “fixed” versions of klipper like on Sovol printers for example will need to activate the old_klipper_version variable to continue using the BED_CHECKER heat soak system. 
 
 #### :warning: If users of old stuck systems don’t set this variable True then BED_CHECKER heat soak will error out & cancel your print as your old version of klipper is no longer compatible with commands required to run it so a legacy mode must be enabled. :warning:
 
 <img width="555" height="96" alt="BCHS Old Klipper" src="https://github.com/user-attachments/assets/bbc1c7b6-7e52-4419-b034-27c82f930e43" />
 
+</details>
+
 <br>
-<br>
+
 
 
 ## :red_circle: :warning: CARTOGRAPHER & LATEST KLIPPER USERS READ THIS!! :warning: :red_circle:
@@ -192,7 +205,52 @@ Come & join the community! We've just launched Demon Discord, help us start buil
 
 <br>
 
-### NEW FEATURE: PELLET FORMING PURGE - POOP_N_SHOOT!
+# NEW FEATURE: DEMON CLEANER PAD RECOGNISER!
+
+Making your DKEU cleaning system setup a breeze! 
+
+>[!TIP]
+> Use this guided UI tool to set up your DKEU cleaner's main features & automatically save them to file!
+
+<br>
+
+A system so good you'll want to use it more than just once!
+
+## Watch the video below!
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Nk6oSrvPmgw
+" target="_blank"><img src="http://img.youtube.com/vi/GBVCe6y7QIY/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="500" height="360" border="10" /></a>
+
+Watch: https://youtu.be/GBVCe6y7QIY?si=OK8HPl1_cyRH0lZd
+
+<br>
+
+## On Printer Interface
+
+<img width="1394" height="956" alt="DCPR 1" src="https://github.com/user-attachments/assets/00d87ac4-577d-4086-b50c-1829cef27788" />
+<img width="1303" height="845" alt="DCPR 2" src="https://github.com/user-attachments/assets/0492b580-041c-4433-8d01-8ef707b5a6c2" />
+
+<br>
+
+## Mainsail Interface
+
+<img width="1274" height="859" alt="DCPR 4" src="https://github.com/user-attachments/assets/3f701976-28c5-41c4-b3ac-87959cd6dcf3" />
+<img width="1573" height="1081" alt="DCPR 3" src="https://github.com/user-attachments/assets/ff83a4f9-9c73-4969-a50e-e11ea112ca74" />
+
+
+
+
+
+
+<br>
+
+<br>
+
+<br>
+
+
+# FEATURE: PELLET FORMING PURGE - POOP_N_SHOOT!
 
 ![P_N_S](https://github.com/user-attachments/assets/dc9cafb2-aaea-4c4e-b18e-8c8c51f850dc)
 
