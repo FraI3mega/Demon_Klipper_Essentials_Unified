@@ -49,6 +49,30 @@ Checks & Error Handling with clear & easy to understand messages to tell you wha
 
 <br>
 
+## :red_circle: OLDER KLIPPER VERSIONS ON STOCK FACTORY MACHINES!
+
+As of 24th of May 2026 the latest version of DKEU now has this feature fully automated & the system will KNOW if you have a legacy version of Klipper or not & it will know to use legacy mode or not!
+### LATEST COMMIT USERS OF DKEU DO NOT HAVE TO DO THIS - THE VARIABLE HAS BEEN REMOVED
+
+<details>
+    <summary>
+        <b>
+        :red_circle: Click To Expand - OLDER VERSIONS OF DKEU ONLY! v3.1.1 - v3.2.0
+        </b>
+    </summary>
+<p>
+</p>
+In order to bring DKEU inline with recent changes to Klipper’s probing & measuring systems where the old method is now depreciated & is being removed the macros have been updated. 
+Users with new systems & mainline klipper need not do anything except update their Klipper version to the latest commit. However users with stock factory or “fixed” versions of klipper like on Sovol printers for example will need to activate the old_klipper_version variable to continue using the BED_CHECKER heat soak system. 
+
+#### :warning: If users of old stuck systems don’t set this variable True then BED_CHECKER heat soak will error out & cancel your print as your old version of klipper is no longer compatible with commands required to run it so a legacy mode must be enabled. :warning:
+
+<img width="555" height="96" alt="BCHS Old Klipper" src="https://github.com/user-attachments/assets/bbc1c7b6-7e52-4419-b034-27c82f930e43" />
+
+</details>
+
+<br>
+
 ## :red_circle: Slicer G-code has changed! - 17/04/2026
 
 The new version of the Machine G-code is v1.4 & it allows ORCA SLICER USERS to make use of the new Demon Print/Resume Object Avoidance system!
@@ -77,32 +101,6 @@ Click the link below to see how to do this within the DKEU Troubleshooting secti
 Voron users with a Voron style physical Z endstop switch, spelling of the variable has been corrected so the config updater script will not recognise it as the same so user will need to manually re-input the position of their z endstop switch from the previous demon_user_settings_v.x.x.x.cfg file.
 
 <br>
-
-## :red_circle: BED_CHECKER HEAT SOAK - OLDER KLIPPER VERSIONS ON STOCK FACTORY MACHINES!
-
-As of 24th of May 2026 the latest version of DKEU now has this feature fully automated & the system will KNOW if you have a legacy version of Klipper or not & it will know to use legacy mode or not!
-### LATEST COMMIT USERS OF DKEU DO NOT HAVE TO DO THIS - THE VARIABLE HAS BEEN REMOVED
-
-<details>
-    <summary>
-        <b>
-        :red_circle: Click To Expand - OLDER VERSIONS OF DKEU ONLY! v3.1.1 - v3.2.0
-        </b>
-    </summary>
-<p>
-</p>
-In order to bring DKEU inline with recent changes to Klipper’s probing & measuring systems where the old method is now depreciated & is being removed the macros have been updated. 
-Users with new systems & mainline klipper need not do anything except update their Klipper version to the latest commit. However users with stock factory or “fixed” versions of klipper like on Sovol printers for example will need to activate the old_klipper_version variable to continue using the BED_CHECKER heat soak system. 
-
-#### :warning: If users of old stuck systems don’t set this variable True then BED_CHECKER heat soak will error out & cancel your print as your old version of klipper is no longer compatible with commands required to run it so a legacy mode must be enabled. :warning:
-
-<img width="555" height="96" alt="BCHS Old Klipper" src="https://github.com/user-attachments/assets/bbc1c7b6-7e52-4419-b034-27c82f930e43" />
-
-</details>
-
-<br>
-
-
 
 ## :red_circle: :warning: CARTOGRAPHER & LATEST KLIPPER USERS READ THIS!! :warning: :red_circle:
 
