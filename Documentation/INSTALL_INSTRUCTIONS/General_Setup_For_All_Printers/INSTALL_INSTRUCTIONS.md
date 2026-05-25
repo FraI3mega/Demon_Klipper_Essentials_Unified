@@ -1388,6 +1388,12 @@ icon: sd
 method: printer.gcode.script
 params: {"script":"_RESET_FILE_STATE"}
 
+[menu __main custom cleaner_recogniser]
+name: Cleaner Recogniser
+icon: shuffle
+method: printer.gcode.script
+params: {"script":"DEMON_CLEANER_PAD_RECOGNISER"}
+
 ```
 
 The icons are appropriate if you use with the material-darker theme. Other theme’s icons may differ.
