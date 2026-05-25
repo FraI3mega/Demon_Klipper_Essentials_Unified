@@ -220,11 +220,10 @@ A system so good you'll want to use it more than just once!
 
 ## Watch the video below!
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Nk6oSrvPmgw
-" target="_blank"><img src="http://img.youtube.com/vi/GBVCe6y7QIY/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="500" height="360" border="10" /></a>
+https://github.com/user-attachments/assets/fb06ec52-14a2-4be6-8292-33b9ae9689e9
 
-Watch: https://youtu.be/GBVCe6y7QIY?si=OK8HPl1_cyRH0lZd
+Watch on YOUTUBE: https://youtu.be/GBVCe6y7QIY?si=OK8HPl1_cyRH0lZd
+
 
 <br>
 
