@@ -86,7 +86,7 @@ cd kiauh && git pull
 then 
 
 ```
-./kiauh/kiauh.sh
+~/kiauh/kiauh.sh
 ```
 
 The hit option `S` & check the first section for reads Klipper source repository reads 
