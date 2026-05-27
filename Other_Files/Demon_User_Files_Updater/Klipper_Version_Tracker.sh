@@ -9,7 +9,7 @@ HDIR="/home/$U"
 KLDIR="/home/$U/printer_data/logs/klippy.log"
 KLIP="klipper"
 KVER="13"
-KNUM="371"
+KNUM="623"
 
 ######## KLIPPER VERIONS TRACKER ########
 
