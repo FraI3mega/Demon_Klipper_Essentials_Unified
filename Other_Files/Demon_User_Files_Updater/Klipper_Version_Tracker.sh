@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# 3DPrintDemon Klipper Essentials Unified Klipper Version Tracker Script v1.0.0
+# 3DPrintDemon Klipper Essentials Unified Klipper Version Tracker Script v1.0.2
 # https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified
 
 # Define
@@ -13,8 +13,8 @@ KNUM="623"
 
 ######## KLIPPER VERIONS TRACKER ########
 
-var0=$(echo | grep -w --max-count=1 $KLDIR -e "Tracked URL:")
-var1=$(echo | grep -w --max-count=1 $KLDIR -e 'Git version:')
+var0=$(echo | tac $KLDIR | grep -m1 "Tracked URL:")
+var1=$(echo | tac $KLDIR | grep -m1 "Git version:")
 
 echo $var0
 echo $var1
