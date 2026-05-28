@@ -36,7 +36,7 @@ trim_var4="${trim_var3%%-*}"
 if [ "$trim_var0" = "$KLIP" ]; then
     echo Firmware Type: "$trim_var0"
     echo "SET_GCODE_VARIABLE MACRO=_CORE_VARS VARIABLE=is_klipper VALUE=True" >~/printer_data/comms/klippy.serial
-    echo Requesting Klipper set vairable is klipper to True
+    echo Requesting Klipper set variable is klipper to True
 
     if [ "$trim_var2" -eq "$KVER" ]; then
          echo Klipper version: Current
@@ -44,18 +44,18 @@ if [ "$trim_var0" = "$KLIP" ]; then
          if [ "$trim_var4" -lt "$KNUM" ]; then
              echo Legacy Mode: ON
              echo "SET_GCODE_VARIABLE MACRO=_CORE_VARS VARIABLE=legacy_klipper VALUE=True" >~/printer_data/comms/klippy.serial
-             echo Requesting Klipper set vairable legacy Klipper to True
+             echo Requesting Klipper set variable legacy Klipper to True
         
          elif [ "$trim_var4" -eq "$KNUM" ] || [ "$trim_var4" -gt "$KNUM" ]; then
              echo Legacy Mode: OFF
              echo "SET_GCODE_VARIABLE MACRO=_CORE_VARS VARIABLE=legacy_klipper VALUE=False" >~/printer_data/comms/klippy.serial
-             echo Requesting Klipper set vairable legacy Klipper to False
+             echo Requesting Klipper set variable legacy Klipper to False
          fi
 
     elif [ "$trim_var2" -lt "$KVER" ]; then
         echo Legacy version of Klipper detected!
         echo "SET_GCODE_VARIABLE MACRO=_CORE_VARS VARIABLE=legacy_klipper VALUE=True" >~/printer_data/comms/klippy.serial
-        echo Requesting Klipper set vairable legacy Klipper to True
+        echo Requesting Klipper set variable legacy Klipper to True
 
    
     else
@@ -65,7 +65,7 @@ if [ "$trim_var0" = "$KLIP" ]; then
 else
     echo Firmware type: "$trim_var0"
     echo "SET_GCODE_VARIABLE MACRO=_CORE_VARS VARIABLE=is_klipper VALUE=False" >~/printer_data/comms/klippy.serial
-    echo Requesting Klipper set vairable is klipper to False
+    echo Requesting Klipper set variable is klipper to False
 fi
 
 
