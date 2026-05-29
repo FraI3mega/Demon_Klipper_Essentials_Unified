@@ -1551,7 +1551,7 @@ Found in the demon_user_settings_v2.9.cfg onwards.
 <br>
 <br>
 
-# NEW EDDY NG SUPPORT!! 
+# EDDY NG SUPPORT!! 
 
 >[!IMPORTANT]
 >Don't add any of the Eddy NG macros, just the printer.cfg sections. Their macros are not required with DKEU.
