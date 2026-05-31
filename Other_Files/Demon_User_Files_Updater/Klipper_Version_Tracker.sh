@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# 3DPrintDemon Klipper Essentials Unified Klipper Version Tracker Script v1.0.2
+# 3DPrintDemon Klipper Essentials Unified Klipper Version Tracker Script v1.0.3
 # https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified
 
 # Define
@@ -8,6 +8,7 @@ U="$USER"
 HDIR="/home/$U"
 KLDIR="/home/$U/printer_data/logs/klippy.log"
 KLIP="klipper"
+SKlIP="klipper.git"
 KVER="13"
 KNUM="623"
 
@@ -33,8 +34,13 @@ trim_var4="${trim_var3%%-*}"
 #echo Source value only = $trim_var4
 
 
-if [ "$trim_var0" = "$KLIP" ]; then
-    echo Firmware Type: "$trim_var0"
+if [ "$trim_var0" = "$KLIP" ] || [ "$trim_var0" = "$SKLIP" ]; then
+    if [ "$trim_var0" = "$SKLIP" ]: then
+        echo Firmware Type: "${trim_var0%.*}"
+    else
+        echo Firmware Type: "$trim_var0"
+    fi
+    
     echo "SET_GCODE_VARIABLE MACRO=_CORE_VARS VARIABLE=is_klipper VALUE=True" >~/printer_data/comms/klippy.serial
     echo Requesting Klipper set variable is klipper to True
 
