@@ -35,7 +35,7 @@ trim_var4="${trim_var3%%-*}"
 
 
 if [ "$trim_var0" = "$KLIP" ] || [ "$trim_var0" = "$SKLIP" ]; then
-    if [ "$trim_var0" = "$SKLIP" ]: then
+    if [ "$trim_var0" = "$SKLIP" ]; then
         echo Firmware Type: "${trim_var0%.*}"
     else
         echo Firmware Type: "$trim_var0"
