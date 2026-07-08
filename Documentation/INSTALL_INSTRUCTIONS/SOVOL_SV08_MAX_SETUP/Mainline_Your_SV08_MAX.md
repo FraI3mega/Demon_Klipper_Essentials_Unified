@@ -80,6 +80,13 @@ Make sure you do it ALL! Then come back here.
 
 SSH command...
 
+Install Katapult, while the MCU bootloaders have it the host does not, so you need it install it to make use of it.
+```
+git clone https://github.com/Arksine/katapult
+```
+
+Then Update Kiauh 
+
 ```
 cd kiauh && git pull
 ```
