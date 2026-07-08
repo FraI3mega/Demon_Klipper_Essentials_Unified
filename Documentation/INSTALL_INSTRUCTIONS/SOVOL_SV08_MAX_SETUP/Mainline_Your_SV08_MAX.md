@@ -88,7 +88,13 @@ git clone https://github.com/Arksine/katapult
 Then Update Kiauh 
 
 ```
-cd kiauh && git pull
+cd kiauh
+```
+```
+git config pull.ff only
+```
+```
+git pull
 ```
 then 
 
